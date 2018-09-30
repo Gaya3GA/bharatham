@@ -1,0 +1,338 @@
+*{
+	margin:0;      
+	padding:0;
+}
+body{
+	font-family: calibri,sans-serif;
+	height: 1770px;
+}
+.danceschool{
+	width: 100%;
+	height:100px;
+background-color: #2a110a;
+                                          
+}
+.logo{
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.learn p{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	
+}
+ .best ul li{
+	
+	list-style-type: none;
+}
+.best ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Josefin Slab', serif;
+	float:right;
+	margin-right: 60px;
+	margin-top: 50px;
+	
+}
+.best ul li a:hover{
+	border-bottom: 1px solid #F89406;
+}
+.best ul li a.active{
+	border-bottom: 1px solid #F89406;
+}
+.kathak img{
+	
+	width: 25%;
+	height:570px;
+	float: left;
+}
+#best-danceschool{
+	position:absolute;
+	top: 0;
+	left: 0;
+	min-height: 300px;
+	min-width: 100%;
+}
+.bharatham{
+	position: absolute;
+	width: 100%;
+	min-height: 300px;
+	z-index: 1000;
+	background-color: rgba{0,0,0,0.7};
+}
+
+.bharatham img{
+	width: 75%;
+	float: right;
+}
+
+.bharatham1{
+	position: absolute;
+	width: 100%;
+	min-height: 300px;
+	z-index: 1000;
+	background-color: rgba{0,0,0,0.7};
+}
+
+.bharatham1 p{
+	color: #ffffff;
+	text-align: right;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-top: 430px;
+	margin-bottom: 10px;
+	font-family: 'Roboto Slab', serif;
+	margin-right: 10px;
+	
+}
+.about{
+	margin-top:570px;
+	width: 100%;
+	height:400px;
+background-color: #2a110a;
+}
+.abtpic{
+	float: left;
+	margin-left: 50px;
+	margin-top: 35px;
+	border-radius: 50%;
+}
+.headabt{
+	float:left;
+	margin-left: 150px;
+	margin-top: 35px;
+	color: #ffffff;
+	font-family:sans-serif;
+	font-size: 40px;
+	border-bottom: 1px solid #F89406;
+	border-bottom-height: 20px;
+}
+.headabt1{
+	float:left;
+	margin-left: 10px;
+	margin-top: 35px;
+	color: #F89406;
+	font-family:sans-serif;
+	font-size: 40px;
+}
+.abtsec{
+	float:left;
+	margin-top: 90px;
+	color: #ffffff;
+	font-family: 'Times new roman',serif;
+	font-size: 20px;
+	margin-left: -200px;
+}
+.abtsec1{
+	width:500px;
+	float: left;
+	margin-top: 130px;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin-left: -460px;
+	text-align: justify;
+	line-height: 1.6;
+}
+.abtsec1 a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: cursive,sans-serif;
+	font-size: 16px;
+	border-bottom: 1px solid #F89406;
+	line-height: 1.8;
+}
+#testimonals{
+width:100%;
+height:600px;
+}
+
+.testhead{
+	text-align: center;
+	font-family: 'Italianno', cursive;
+	font-size: 40px;
+	color: #F89406;
+	margin-top: 15px;
+}
+#slider{
+ overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width:500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+	margin-top: 20px;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+    25%{
+    	left: -100%;
+    }
+    45%{
+    	left: -100%;
+    }
+    50%{
+    	left: -200%;
+    }
+    70%{
+    	left: -200%;
+    }
+    75%{
+    	left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+}
+#contact{
+width:100%;
+height:420px;
+background-color: #2a110a;
+}
+.message{
+	margin-left: 45px;
+	margin-top: 40px;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Cinzel', serif;
+	float: left;
+}
+.mes{
+	margin-left:15px;
+	margin-top: 30px;
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	float: left;
+	border:1px solid #F89406;
+	width:350px;
+	height: 150px;
+	text-align: justify;
+}
+.mes1{
+	margin-left: -350px;
+	margin-top: 200px;
+	color: #ffffff;
+	background-color: #F89406;
+	font-size: 15px;
+	font-family: 'Cinzel', serif;
+	float: left;
+	border:1px solid #F89406;
+	width:100px;
+	height: 30px;
+	text-align: center;
+}
+.call p{
+	margin-left: 150px;
+	margin-top: 40px;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Cinzel', serif;
+	float: left;
+}
+.call img{
+	margin-left: -150px;
+	margin-top: 100px;
+	float: left;
+}
+.num1 p{
+	margin-left: -105px;
+	margin-top: 100px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Cinzel', serif;
+	float: left;
+}
+.num2 p{
+	margin-left: -115px;
+	margin-top: 130px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Cinzel', serif;
+	float: left;
+}
+.mail{
+	margin-left: -14px;
+	margin-top: 70px;
+	float: left;
+}
+.mailid{
+	margin-left: -115px;
+	margin-top: 165px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family:sans-serif;
+	float: left;
+}
+.addr{
+	margin-top: 210px;
+	margin-left: -170px;
+	color: #F89406;
+	font-size: 16px;
+	font-family: 'Cinzel', serif;
+	float: left;
+
+}
+.reach img{
+	float: right;
+	margin-top: 40px;
+	margin-right: 400px;
+}
+.reach1{
+	margin-top: -28px;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Cinzel', serif; 
+	margin-right:270px;
+	float: right;
+}
+.loc1{
+	float: right;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+.social{
+width:100%;
+height:150px;
+background-color: #2a110a;
+border-top: 1px solid #F89406;
+}
+.connect{
+	margin-top: 10px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Cinzel', serif;
+}
+.s1 a img {
+	margin-top: 20px;
+	margin-left: 550px;
+	float: left;
+}
+.s2 a img {
+	margin-top: 20px;
+	margin-left: 80px;
+	float: left;
+}
+.s3 a img {
+	margin-top: 20px;
+	margin-left: 80px;
+	float: left;
+}
