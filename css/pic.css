@@ -1,0 +1,67 @@
+*{
+	margin:0;      
+	padding:0;
+}
+body{
+	font-family: calibri,sans-serif;
+	height: 1770px;
+}
+h1{
+	text-align: center;
+	color: #2a110a;
+	margin: 30px 0 50px;
+}
+.danceschool{
+	width: 100%;
+	height:100px;
+background-color: #2a110a;
+                                          
+}
+.logo{
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.learn p{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	
+}
+ .best ul li{
+	
+	list-style-type: none;
+}
+.best ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Josefin Slab', serif;
+	float:right;
+	margin-right: 60px;
+	margin-top: 50px;
+	
+}
+.best ul li a:hover{
+	border-bottom: 1px solid #F89406;
+}
+.best ul li a.active{
+	border-bottom: 1px solid #F89406;
+}
+.album{
+	margin: 10px 50px;
+}
+.album img{
+	width:300px;
+	height: 250px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.album img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
